@@ -4,6 +4,7 @@ from glob import glob
 import difflib
 import tempfile
 import codecs
+import re
 
 from readability import readable, DEFAULT_ENCODING
 
